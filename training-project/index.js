@@ -1,5 +1,6 @@
 const { Person } = require("./person");
 
-const person = new Person('Douglas Neres');
-
 /*require("./modules/path")*/
+require("./modules/fs")
+
+const person = new Person('Douglas Neres');
