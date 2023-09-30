@@ -1,0 +1,27 @@
+POST http://localhost:1176/videos
+Content-Type: application/json
+
+{
+  "title": "Vídeo node",
+  "description": "Descrição do vídeo 01",
+  "duration": 180
+}
+
+###
+
+GET http://localhost:1176/videos?search=node
+
+###
+
+PUT http://localhost:1176/videos/f8f1def3-a8b9-43f1-b313-23a4258036fc
+Content-Type: application/json
+
+{
+  "title": "Vídeo 22",
+  "description": "Descrição do vídeo 01",
+  "duration": 180
+}
+
+###
+
+DELETE http://localhost:1176/videos/82162ae0-6801-4fcd-9a1f-9d1b4e831e42
